@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {firestore, auth, fire, firebaseApp} from "../config/fire-config";
 import {signInWithEmailAndPassword} from 'firebase/auth'
-import {useCollection, doc, getDoc, setDoc} from 'react-firebase-hooks/firestore';
+// import {useCollection, doc, getDoc, setDoc} from 'react-firebase-hooks/firestore';
 import {useRouter} from 'next/router';
 import Image from 'next/image';
 import {login} from '../public/login.png'
